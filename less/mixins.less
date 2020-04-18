@@ -1,1 +1,14 @@
 // Mixins in here
+.sign-up(@background, @border-color, @border-radius) {
+    background: @background;
+    border: 1px @border-color solid;
+    border-radius: @border-radius;
+    color: white;
+    height: 45px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    width: 80%;
+}
